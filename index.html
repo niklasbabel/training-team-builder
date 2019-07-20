@@ -1,0 +1,35 @@
+<div id="header">Team Generator</div>
+<div id="main">
+    <div id="left">
+        <textarea id="instructions" class="pl ta" readonly>
+Instructions:
+    
+Add players by typing into the text field to the left of the button "Add Player", then clicking said button.
+    
+Delete players by clicking delete next to their names on the right, only after generating the teams.
+    
+Clear the player list by clicking the button "Clear Players".
+    
+Generate the teams after you have added all the players you want, then by clicking the button "Generate Teams".
+
+Email the teams to people by clicking the button "Email Teams". You can even send it to phones by typing in the phone address of a phone with sms.
+
+Att would be:
+phone#@txt.att.net
+
+Sprint would be:
+phone#@messaging.sprintpcs.com
+        </textarea><br>
+        <textarea id="pl" class="pl ta" readonly></textarea><br>
+        <input type="text" id="apt" maxlength="24" />
+        <input type="button" id="ap" onClick="addPlayer()" value="Add Player" /><br>
+        <input type="button" id="gt" onClick="clrPlayers()" value="Clear Players" /><br>
+        <input type="button" id="gt" onClick="genTeams()" value="Generate Teams" />
+        <div id="mail"></div>
+    </div>
+
+    <div id="right">
+        <div id="red" class="pl"></div>
+        <div id="blue" class="pl"></div>
+    </div>
+</div>

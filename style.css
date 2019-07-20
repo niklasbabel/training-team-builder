@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    font-size: 10px;
+    background-color: #333;
+}
+
+#header {
+    margin: 0 auto;
+    padding: 10px 20px;
+    width: 498px;
+    font-size: 42pt;
+    font-weight: bold;
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+    text-align: center;
+    color: #FFF;
+    background-color: #666;
+    border: 1px solid #000;
+}
+
+#main {
+    margin: 0 auto;
+    width: 560px;
+}
+
+#left {
+    margin: 10px;
+    float: left;
+}
+
+#right {
+    margin: 10px;
+    margin-left: -5px;
+    float: right;
+}
+
+.pl {
+    margin: 0;
+    padding: 5px 7px 5px 10px;
+    width: 300px;
+    background-color: #666;
+    border: 1px solid #000;
+}
+
+.pli {
+    margin: 5px 0;
+    padding: 3px 10px;
+    height: 22px;
+    color: #999;
+    font-size: 13pt;
+    background-color: #333;
+    border: 1px solid #000;
+}
+
+#instructions {
+    margin-bottom: 5px;
+    padding: 0px;
+    padding-left: 2px;
+    width: 204px;
+    height: 200px;
+}
+
+#ap,
+#dp,
+#gt,
+#apt,
+#mailto {
+    margin: 5px;
+    padding: 5px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #666;
+    border: 1px solid #000;
+}
+
+#gt {
+    margin-top: 2px;
+    margin-left: 0px;
+    width: 208px;
+}
+
+#mailto {
+    margin-top: 2px;
+    margin-left: 0px;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+    width: 206px;
+    text-align: center;
+}
+
+.ta {
+    width: 189px;
+    height: 45px;
+    background-color: #FFF;
+}
+
+#dp {
+    margin: -1px -8px 0 0;
+    float: right;
+    font-size: 10px;
+}
+
+#apt {
+    margin: 0;
+    color: #333;
+    background-color: #FFF;
+}
+
+.red {
+    color: #FFF;
+    background-color: #F00
+}
+
+.blue {
+    color: #FFF;
+    background-color: #00F
+}
